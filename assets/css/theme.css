@@ -12,7 +12,7 @@ html, body {
 
 .my-navbar a {
   background: transparent !important;
-  color: rgb(121, 82, 179) !important
+  color: #fff !important
 }
 
 .my-navbar a:hover {
@@ -43,7 +43,6 @@ button.navbar-toggle {
 }
 
 /*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/
-
 button.navbar-toggle>span.icon-bar {
   background-color: rgb(121, 82, 179)
 }
@@ -71,8 +70,8 @@ button.navbar-toggle>span.icon-bar {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+  height: 375px;
+  margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -81,7 +80,7 @@ button.navbar-toggle>span.icon-bar {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 375px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -89,7 +88,7 @@ button.navbar-toggle>span.icon-bar {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 375px;
 }
 
 
@@ -98,7 +97,7 @@ button.navbar-toggle>span.icon-bar {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .marketing h2 {
